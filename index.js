@@ -1,6 +1,6 @@
 
 ReactDOM.render(
-  <>
+  <div>
     <pre>
       If everyone were rich, would the world be a peaceful place to live in?
     </pre>
@@ -10,6 +10,6 @@ ReactDOM.render(
       <li>Life is not all about having fun.</li>
       <li>There needs to be a balance between morals and pleasure.</li>
     </ul>
-  </>,
+  </div>,
   document.getElementById("root")
 );
