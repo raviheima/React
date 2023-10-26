@@ -1,15 +1,12 @@
-
-ReactDOM.render(
-  <div>
-    <pre>
-      If everyone were rich, would the world be a peaceful place to live in?
-    </pre>
-    <ul>
-      <li>Peace to you all</li>
-      <li>If we decide to embrace our flaws and support each other, a lot will change.</li>
-      <li>Life is not all about having fun.</li>
-      <li>There needs to be a balance between morals and pleasure.</li>
-    </ul>
-  </div>,
-  document.getElementById("root")
+const navbar = (
+   <nav>
+      <h1>AmoledBytes</h1>
+      <ul>
+         <li>BLOG</li>
+         <li>About</li>
+         <li>Contact</li>
+      </ul>
+   </nav>
 );
+
+document.getElementById("root").append(JSON.stringify(navbar))
