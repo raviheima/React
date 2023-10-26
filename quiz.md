@@ -25,4 +25,4 @@ funtion Header() {
 }
 ReactDOM.render(Header(), document.getElementById("root"))
 ```
-the component is called in a javascript syntax
+the component is called in a normal javascript syntax
