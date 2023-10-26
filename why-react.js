@@ -1,16 +1,22 @@
 
 // why i like react functions scripts
-function Love() {
-   return (
-      <div>
+function Header() {
+    return(
       <header>
         <nav>
             <img src="react.png" width="40px" />
           
-        <h1>React Ninja </h1>
-           <h3> why i'm excited to be learning react. </h3>
         </nav>
       </header>
+            
+      )
+}
+function Love() {
+   return (
+      <div>
+     <Header /> 
+        <h1>React Ninja </h1>
+           <h3> why i'm excited to be learning react. </h3>
            <ol>
               <li> react is cool</li>
               <li> i'm going to build my first android app using react</li>

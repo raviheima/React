@@ -1,7 +1,8 @@
+Quiz!
 1. What Is a React Component
-A react component is a self contained reusable piece of code that performs a
+A component is a self contained reusable piece of code that performs a
 specific function or is part of a larger system 
-
+ react component is a self contained reusable user interface
 2. What's  wrong with this code?
 ```
 function myComponents() {
