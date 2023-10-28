@@ -1,0 +1,35 @@
+<html>
+<head>
+<link rel="stylesheet" href="index.css" />
+<script
+  crossorigin
+  src="https://unpkg.com/react@18/umd/react.development.js"
+></script>
+<script
+  crossorigin
+  src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+></script>
+
+<!--This must be added to the file for each imported function-->
+<!-- Here for Header.js-->
+<script
+  data-plugins="transform-es2015-modules-umd"
+  type="text/babel"
+  src="./Header.js"
+></script>
+<!-- Here for MainContent.js-->
+<!-- Here for Footer.js-->
+
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+
+<body>
+<div id="love"></div>
+<!-- Final, I have to add data-plugins here -->
+<script
+  src="why-react.js"
+  type="text/babel"
+  data-plugins="transform-es2015-modules-umd"
+></script>
+</body>
+</html>

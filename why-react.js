@@ -1,27 +1,15 @@
-function Header() {
-    return(
-           <header>
-           <nav className="nav">
-                <img src="/react.png" className="nav-img"/>
-                <ul className="nav-items">
-                    <li>Blog</li>
-                    <li>About</li>
-                    <li>Contact Us</li>
-                </ul>
-            </nav>
-            </header>
-    )
-}
+import Header from "Header.js";
+
 function Maincontent() {
     return (
 
         <div>
-        <h1>Why i Love React</h1>
+        <h1> Reasons: i'm excited to learn React</h1>
             <ol>
-                <li>React Is Fun and easy going</li>
+                <li>just a list</li>
                 <li> React is Popular</li>
-                <li> I'm more likely to get a job with react</li>
-                <li>i'd like to broaden my horizon in the scope of software development</li>
+                <li> I'm more likely to get a job with react  </li>
+                <li> i'd like to broaden my horizon in the scope of software development </li>
             </ol>
         </div>
     )
@@ -43,4 +31,4 @@ function Page() {
         </div>
     )
 }
-ReactDOM.render(<Page />, document.getElementById("love"))
+    ReactDOM.render(<Page />, document.getElementById("love"))

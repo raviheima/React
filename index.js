@@ -1,3 +1,5 @@
+import Header from "Header.js";
+
 function Page() {
    
    return   (

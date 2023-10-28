@@ -1,34 +1,44 @@
+.nav {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  /* background-color: #your-color; */ /* Set the desired background color */
+  z-index: 1000; /* Adjust the z-index as needed */
+}
 .nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 .nav-items{
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
-.nav-items > li{
-    padding: 10px;
+.nav-items > li {
+  padding: 10px;
 }
 .nav-img{
-    width: 60px;
+  width: 50px;
 }
-    body {
-        margin: 0;
-        padding: 0;
-        font-size: 18px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh; /* This ensures the footer stays at the bottom. */
-        text-align: center;
-    }
-
-    .footer {
-        background-color: #333; /* Dark background color of your choice */
-        color: #fff; /* Text color for the footer content */
-        padding: 20px; /* Adjust the padding to your preference */
-        text-align: center; Center align text if needed
-    }
+.footer{
+  position: absolute;
+  bottom: 0;
+  /* background-color: #fff; */
+  text-align: center;
+  width: 100%;
+}
+footer {
+  background-color: #333; /* Adjust the color as needed */
+  color: #fff; /* Text color for better contrast */
+}
+body{
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  padding-top: 80px;
+}
