@@ -1,0 +1,5 @@
+# Ignore all Node.js dependencies folders
+**/node_modules/
+# Ignore speed.7z from any folder
+**/react-packages.7z
+**/react-packages.7z.tmp
