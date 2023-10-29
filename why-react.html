@@ -4,14 +4,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
     <title>Why react</title>
-    <script src="./Header.js" type="text/babel"></script>
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script crossorigin src="react.development.js"></script>
 <script crossorigin src="react-dom.development.js"></script>
 <script src="babel.min.js"></script>
-<link rel="stylesheet" href="bootstrap.min.css">
 <link rel="stylesheet" href="index.css">
+          <!-- start of js babel imports scripts -->    
+                      <script
+            data-plugins="transform-es2015-modules-umd"
+            type="text/babel"
+            src="./Header.js"
+></script>
+
+
+          <!-- end of js babel imports scripts     -->
 </head>
 <body>
 <!--     <div id="root"></div> -->
@@ -24,7 +29,11 @@
     
     
     
-    <script src="bootstrap.min.js"></script>
-    <script src="popper.min.js"></script>
+  <script
+  data-plugins="transform-es2015-modules-umd"
+  type="text/babel"
+  src="why-react.js"
+></script>
+
 </body>
 </html>
