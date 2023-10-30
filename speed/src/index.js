@@ -17,7 +17,7 @@ import "./js/bootstrap.js";
 
 function App(){
   return(
-    <div>
+    <div className="container-fluid">
 
         <Header />
         <Maincontent />
