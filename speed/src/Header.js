@@ -5,6 +5,8 @@ export default function Header(){
         <header>
             <nav className="nav">
             <img src={reactLogo} alt="react logo" className="nav-img" />
+            <h3 className="reactfacts">ReactFacts</h3>
+           
 
                 <ul className="nav-items">
                     <li>Blog</li>
