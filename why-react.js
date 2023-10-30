@@ -1,9 +1,11 @@
-
+import Header from "./Header"
+import Maincontent from "./Maincontent"
+import Footer from "./Footer"
 function App() {
     return(
         <div>
         <Header />
-        <Maincontent />,
+        <Maincontent />
         <Footer />
         </div>
     )
