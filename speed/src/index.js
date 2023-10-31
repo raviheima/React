@@ -4,8 +4,6 @@ import Header from "./Header";
 import Maincontent from "./Maincontent";
 import Footer from "./Footer";
 import "./css/index.css";
-import "./css/c/bootstrap.css";
-import "./js/bootstrap.js";
 
 
 // const loveDiv = document.createElement('div');
